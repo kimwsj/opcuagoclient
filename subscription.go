@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/kimwsj/opcuagoclient/debug"
+	"github.com/kimwsj/opcuagoclient/errors"
+	"github.com/kimwsj/opcuagoclient/id"
+	"github.com/kimwsj/opcuagoclient/ua"
+	"github.com/kimwsj/opcuagoclient/uasc"
 )
 
 const (

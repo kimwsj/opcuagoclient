@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/ua"
+	"github.com/kimwsj/opcuagoclient/id"
+	"github.com/kimwsj/opcuagoclient/ua"
 )
 
 // Node is a high-level object to interact with a node in the

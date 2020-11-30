@@ -8,10 +8,10 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/monitor"
-	"github.com/gopcua/opcua/ua"
+	"github.com/kimwsj/opcuagoclient"
+	"github.com/kimwsj/opcuagoclient/debug"
+	"github.com/kimwsj/opcuagoclient/monitor"
+	"github.com/kimwsj/opcuagoclient/ua"
 )
 
 func main() {

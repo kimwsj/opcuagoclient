@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gopcua/opcua/errors"
+	"github.com/kimwsj/opcuagoclient/errors"
 )
 
 // todo(fs): fix mask

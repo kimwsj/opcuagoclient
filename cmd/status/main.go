@@ -15,7 +15,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/gopcua/opcua/cmd/service/goname"
+	"github.com/kimwsj/opcuagoclient/cmd/service/goname"
 )
 
 func main() {
