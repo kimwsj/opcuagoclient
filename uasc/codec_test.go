@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kimwsj/opcuagoclientua"
+	"github.com/kimwsj/opcuagoclient"
 	"github.com/pascaldekloe/goe/verify"
 )
 
