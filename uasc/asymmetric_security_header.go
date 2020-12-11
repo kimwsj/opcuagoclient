@@ -56,9 +56,11 @@ func (a *AsymmetricSecurityHeader) String() string {
 func (h *AsymmetricSecurityHeader) Len() int {
 	var l int
 	l += 12
-	l += len(h.SecurityPolicyURI)
-	l += len(h.SenderCertificate)
-	l += len(h.ReceiverCertificateThumbprint)
+	if h != nil {
+		l += len(h.SecurityPolicyURI)
+		l += len(h.SenderCertificate)
+		l += len(h.ReceiverCertificateThumbprint)
+	}
 
 	return l
 }
